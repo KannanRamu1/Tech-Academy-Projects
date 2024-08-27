@@ -1,0 +1,24 @@
+﻿body {
+    background-color: lightblue;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+#animation-box {
+    width: 100px;
+    height: 100px;
+    background-color: coral;
+    margin: 20px auto;
+    position: relative;
+    animation: move 5s infinite alternate;
+}
+
+@keyframes move {
+    from {
+        left: 0;
+    }
+
+    to {
+        left: 100%;
+    }
+}
